@@ -19,6 +19,7 @@ public class ProductoServiceImpl implements ProductoService {
 	
 	//@Qualifier("ProductoDAOImpl") 
 	@Autowired
+	@Qualifier("productoDAOImplJDBC") 
 	private ProductoDAO productoDAO;
 
 	@Override
